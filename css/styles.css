@@ -176,7 +176,7 @@ body {
   align-items: center;
 }
 
-.contacts:hover {
+.contacts:is(:hover, :focus) {
   color: var(--accent-color);
 }
 
@@ -258,6 +258,10 @@ body {
 }
 
 /*what we do?*/
+
+.section-what-we-do {
+  padding-bottom: 120px;
+}
 
 .list-images {
   margin-top: 72px;
@@ -362,6 +366,7 @@ body {
 /*customers*/
 
 .section-customers {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -511,6 +516,7 @@ body {
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .button-filters-text:hover,
