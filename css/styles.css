@@ -74,6 +74,10 @@ body {
   background: #4d5ae5;
   border-radius: 4px;
   border: none;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  transition-duration: 250ms;
 }
 
 .button-default:hover,
@@ -158,6 +162,11 @@ body {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  transition-duration: 250ms;
 }
 
 .nav {
@@ -177,6 +186,10 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  transition-duration: 250ms;
 }
 
 .contacts:is(:hover, :focus) {
@@ -356,6 +369,11 @@ body {
   align-items: center;
   background-color: var(--bg-soc);
   color: #ffffff;
+
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  transition-duration: 250ms;
 }
 
 .team-soc-icon {
@@ -397,6 +415,11 @@ body {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  transition-duration: 250ms;
 }
 
 .customers-icon {
@@ -473,6 +496,11 @@ body {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
+
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  transition-duration: 250ms;
 }
 
 .footer-social-icon {
@@ -506,6 +534,11 @@ body {
   background: #404bbf;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  transition-duration: 250ms;
 }
 
 .button-filters-text {
@@ -520,6 +553,11 @@ body {
   padding: 12px 24px;
   box-sizing: border-box;
   cursor: pointer;
+
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  transition-duration: 250ms;
 }
 
 .button-filters-text:hover,
@@ -531,7 +569,7 @@ body {
 
 .button-filters:hover,
 .button-filters:focus {
-  background: #404bbf;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -548,6 +586,11 @@ body {
 .project-card-item {
   background-color: #ffffff;
   flex-basis: calc((100% - 2 * 24px) / 3);
+
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  transition-duration: 250ms;
 }
 
 .project-card-item-border {
